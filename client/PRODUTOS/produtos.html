@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Produtos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar sm:navbar-expand fg-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXS-X-9Uwa3yGHoIiOIlDz8MwpjSd-xIzFpkPmxzWPHw&s=10"
+              alt=""
+              width="75"
+              height="64"
+            />
+            Mercado Grassi
+          </a>
+          <button
+            class="btn-icon navbar-toggler"
+            type="button"
+            data-bs-toggle="drawer"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+          <dialog
+            class="drawer drawer-end bg-success"
+            tabindex="-1"
+            id="navbarNav"
+            aria-labelledby="navbarNavLabel"
+          >
+            <div class="drawer-header">
+              <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="drawer"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="drawer-body">
+              <ul class="navbar-nav">
+      
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="/client/PRODUTOS/produtos.html"
+                    >Produtos</a
+                  >
+                </li>
+                <li class="nav-item ">
+                  <a
+                    class="nav-link "
+                    href="/client/USUARIOS/usuario.html"
+                    >Usuários</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="/client/OCORRENCIAS/ocorrencias.html"
+                    >Ocorrências</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html"
+                    >Dashboard</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </dialog>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container d-flex flex-row flex-wrap gap-4">
+      <div class="card" style="width: 17rem">
+        <img
+          src="https://bretas.vtexassets.com/arquivos/ids/187201-800-auto?v=638375507959800000&width=800&height=auto&aspect=true"
+          class="card-img-top"
+          alt="..."
+          height="250"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Laranja Bahia</h4>
+          <p class="card-text">Laranja Bahia, maior que uma laranja comum</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Preço: 3,50$ p/unidade</li>
+          <li class="list-group-item">Categproa: Fruta</li>
+          <li class="list-group-item">Estado: Ativo</li>
+        </ul>
+        <div class="card-body flex-row gap-4">
+          <a href="#">Comprar</a>
+          <a href="#">Excluir</a>
+        </div>
+      </div>
+      <div class="card" style="width: 17rem">
+        <img
+          src="https://abrafrutas.org/wp-content/uploads/2023/04/destaque-goiaba.webp"
+          class="card-img-top"
+          alt="..."
+          height="250"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Goiaba</h4>
+          <p class="card-text">A goiaba mais docinha que tem</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Preço: 2,50$ p/unidade</li>
+          <li class="list-group-item">Categproa: Fruta</li>
+          <li class="list-group-item">Estado: Ativo</li>
+        </ul>
+        <div class="card-body flex-row gap-4">
+          <a href="#">Comprar</a>
+          <a href="#">Excluir</a>
+        </div>
+      </div>
+      <div class="card" style="width: 17rem">
+        <img
+          src="https://vasoeflor.cdn.magazord.com.br/img/2025/04/produto/2832/imagen-cacau.png?ims=fit-in/800x800/filters:fill(white)"
+          class="card-img-top"
+          alt="..."
+          height="250"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Cacau</h4>
+          <p class="card-text">
+            é azedin e docin mas não morda a semente! é bem amarga, apenas lamba
+            o caroço
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Preço: 20,99$ p/unidade</li>
+          <li class="list-group-item">Categoria: Fruta</li>
+          <li class="list-group-item">Estado: Inativo</li>
+        </ul>
+        <div class="card-body flex-row gap-4">
+          <a href="#">Comprar</a>
+          <a href="#">Excluir</a>
+        </div>
+      </div>
+      <div class="card" style="width: 17rem">
+        <img
+          src="https://hortifrutibr.vtexassets.com/arquivos/ids/170035/CUPUACU.jpg?v=638851962716630000"
+          class="card-img-top"
+          alt="..."
+          height="250"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Cupuaçu</h4>
+          <p class="card-text">
+            É uma fruta estranha, eu pessoalmente não comeria mas você pode
+            tentar com a sua vida em risco
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Preço: 11,99$ p/unidade</li>
+          <li class="list-group-item">Categoria: Fruta</li>
+          <li class="list-group-item">Estado: Ativo</li>
+        </ul>
+        <div class="card-body flex-row gap-4">
+          <a href="#">Comprar</a>
+          <a href="#">Excluir</a>
+        </div>
+      </div>
+      <div class="card" style="width: 17rem">
+        <img
+          src="https://www.saborama.com.br/wp-content/uploads/2014/08/original-post_guaran-_e_seus_benef-cios.jpg20170928-11702-17rfci2.jpg"
+          class="card-img-top"
+          alt="..."
+          height="250"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Guaraná</h4>
+          <p class="card-text">naná</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Preço: 80,00$ p/unidade</li>
+          <li class="list-group-item">Categproa: Fruta</li>
+          <li class="list-group-item">Estado: Ativo</li>
+        </ul>
+        <div class="card-body flex-row gap-4">
+          <a href="#">Comprar</a>
+          <a href="#">Excluir</a>
+        </div>
+      </div>
+      <div class="card" style="width: 17rem">
+        <img
+          src="https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw27687166/images/col/207/2076620-frente.jpg?sw=2000&sh=2000"
+          class="card-img-top"
+          alt="..."
+          height="250"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Toranja</h4>
+          <p class="card-text">é uma laranja só que diferente e cara</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Preço: 25,56$ p/unidade</li>
+          <li class="list-group-item">Categproa: Fruta</li>
+          <li class="list-group-item">Estado: Ativo</li>
+        </ul>
+        <div class="card-body flex-row gap-4">
+          <a href="#">Comprar</a>
+          <a href="#">Excluir</a>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
